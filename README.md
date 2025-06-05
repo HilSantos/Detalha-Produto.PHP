@@ -2,6 +2,8 @@
 Criação do detalhaproduto.php
 
 <?php
+include('segurancadez.php');
+include('cabecalho.php');
 include('conn.php');
 if(!isset($_GET['id'])){
     header('Location: listaprodutos.php');
